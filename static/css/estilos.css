@@ -1,0 +1,145 @@
+@font-face {
+  font-family: Roboto;
+  src: url('../fonts/Roboto-Black.ttf'),
+        url('../fonts/Roboto-Medium.ttf'),
+        url('../fonts/Roboto-Regular.ttf');
+  /*[font-weight: <peso>];*/
+  /*[font-style: <estilo>];*/
+}
+
+
+a{
+  color: #2363E4;
+}
+
+a:visited{
+  color: none;
+}
+
+body{
+  background: none;
+  margin: 0;
+}
+
+h1, h2, h3{
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+header{
+  padding: 5em 2em;
+  background-image: url('../imagenes/cabecera-bg.jpg');
+  background-size: cover;
+}
+
+header h1{
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  font-size: 2.2em;
+}
+
+nav ul{
+  text-align: center;
+}
+
+nav li{
+  display: inline;
+}
+nav a{
+  font-family: 'Roboto';
+  font-size: 1.8em;
+  color: #FBFBFB;
+  text-decoration: none;
+  padding: .2em 1.4em;
+  margin-left: .5em;
+  margin-right: .5em;
+  background-color: #008DD9;
+  border-radius: 2em;
+  box-shadow:  1px 1px 4px #1A1A1A;
+}
+
+nav a.activo{
+  background: #006AA5;
+  box-shadow: inset 1px 1px 8px #1A1A1A;
+}
+
+#examen-menu{
+
+}
+
+#examen-menu button{
+  background-color: #D7D7D7;
+  color: #4E4E4E;
+  padding: .6em 3em;
+  font-weight: bold;
+  font-family: 'Roboto';
+  border: none;
+  margin: 1em .8em;
+}
+
+#examen-menu button.activo{
+  background: #8AE827;
+}
+
+.centrar-texto{
+  text-align: center;
+}
+
+.examen{
+  padding: 2em 6em;
+}
+
+.examen h2{
+  font-size: 2em;
+}
+
+.examen button{
+  padding: .6em 3em;
+  font-family: Roboto;
+  font-size: 1.5em;
+  font-weight: 500;
+  background-color: #9232B2;
+  border-radius: .4em;
+  color: #95DE49;
+  border-color: #2C0048;
+}
+
+.hide{
+  display: none;
+}
+
+.indice{
+  margin-left: 3em;
+  margin-right: 3em;º
+  margin-bottom: 8em;
+}
+
+.indice h3{
+  margin-bottom: .2em;
+}
+
+.indice li{
+  font-family: sans-serif;
+  font-size: .95em;
+}
+
+.indice ul{
+  list-style: none;
+}
+
+.tema{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.tema h2{
+  background-color: #521374;
+  padding: .5em 1em;
+  border-radius: 1.5em 1.5em 1.5em 0;
+  color: white;
+  text-shadow: 1px 1px 4px black;
+}
+
+.tema h3{
+  color: #7928A5;
+}
